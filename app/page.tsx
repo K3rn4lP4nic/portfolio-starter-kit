@@ -7,7 +7,7 @@ export default function Page() {
   {`Hey there! I'm Sai.`}
   <br />
   <br />
-  {`I've been working as a penetration tester for the past four years, but my love for computers began long before that. Growing up, I was lucky to have early access to a computer — a bulky monitor, those clacky keyboards, and the magic of '90s games that pulled me into a world I never wanted to leave.`}
+  {`I've been working as a penetration tester for the past four years, but my love for computers began long before that. Growing up, I was lucky to have early access to a computer, a bulky monitor, those clacky keyboards, and the magic of '90s games that pulled me into a world I never wanted to leave.`}
   <br />
   <br />
   {`Back then, it wasn't about careers or certifications. It was about the joy of discovery, the thrill of breaking things just to fix them again, and the quiet excitement of learning something new every day. That childhood curiosity never left me. It evolved, grew deeper, and eventually led me to cybersecurity.`}
