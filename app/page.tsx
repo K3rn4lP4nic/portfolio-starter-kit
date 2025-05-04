@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <section>
   <p className="mb-4">
-  {`Hey there! I'm `}
+  {`Hey there! I'm Sai From `}
 <span
   className="transition-all duration-300 hover:bg-white hover:text-black"
   style={{
@@ -16,7 +16,7 @@ export default function Page() {
     margin: '0px',
   }}
 >
-  Sai
+  India
 </span>
   <br />
   <br />
