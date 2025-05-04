@@ -12,7 +12,7 @@ export default function Page() {
     textUnderlineOffset: '2px',
   }}
 >
-  Sai
+Sai
 </span>
   <br />
   <br />
