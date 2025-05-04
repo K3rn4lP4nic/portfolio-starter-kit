@@ -2,6 +2,8 @@ import { BlogPosts } from 'app/components/posts'
 
 export default function Page() {
   return (
+    <br />
+    <br />
     <section>
   <p className="mb-4">
   {`Hey there! I'm Sai From `}
