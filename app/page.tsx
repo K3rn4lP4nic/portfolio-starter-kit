@@ -2,10 +2,10 @@ import { BlogPosts } from 'app/components/posts'
 
 export default function Page() {
   return (
-    <br />
-    <br />
     <section>
   <p className="mb-4">
+    <br />
+    <br />
   {`Hey there! I'm Sai From `}
 <span
   className="transition-all duration-300 hover:bg-white hover:text-black"
