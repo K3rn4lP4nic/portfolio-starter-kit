@@ -5,7 +5,13 @@ export default function Page() {
     <section>
   <p className="mb-4">
   {`Hey there! I'm.`}
-  <span className="underline underline-dotted text-underline-offset-2 transition-all duration-300 rounded px-1 hover:bg-white hover:text-black hover:[text-stroke:0.5px_black] hover:[-webkit-text-stroke:0.5px_black]">
+<span
+  className="transition-all duration-300 px-1 rounded-none hover:bg-white hover:text-black hover:[text-stroke:0.5px_black] hover:[-webkit-text-stroke:0.5px_black]"
+  style={{
+    textDecoration: 'underline dotted',
+    textUnderlineOffset: '2px',
+  }}
+>
   Sai
 </span>
   <br />
