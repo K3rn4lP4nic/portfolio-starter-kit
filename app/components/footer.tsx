@@ -1,4 +1,4 @@
-function ArrowIcon() {
+{/*function ArrowIcon() {
   return (
     <svg
       width="12"
@@ -13,21 +13,21 @@ function ArrowIcon() {
       />
     </svg>
   )
-}
+} */}
 
 export default function Footer() {
   return (
-    <footer className="mb-16">
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+    <footer className="mb-16 flex flex-col items-center text-center">
+      <ul className="font-sm mt-8 flex flex-col items-center space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="/rss"
+            href="/About" 
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">rss</p>
+           {/* <ArrowIcon /> */}
+            <p className="ml-2 h-7">About</p>
           </a>
         </li>
         <li>
@@ -35,10 +35,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/vercel/next.js"
+            href="/"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
+            {/* <ArrowIcon /> */}
+            <p className="ml-2 h-7">Tags</p>
           </a>
         </li>
         <li>
@@ -48,8 +48,8 @@ export default function Footer() {
             target="_blank"
             href="https://vercel.com/templates/next.js/portfolio-starter-kit"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
+            {/* <ArrowIcon /> */}
+            <p className="ml-2 h-7">Contact</p>
           </a>
         </li>
       </ul>
