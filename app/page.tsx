@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <section>
   <p className="mb-4">
-  {`Hey there! I'm`}
+  {`Hey there! I'm `}
 <span
   className="transition-all duration-300 hover:bg-white hover:text-black hover:[text-stroke:0.5px_black] hover:[-webkit-text-stroke:0.5px_black]"
   style={{
