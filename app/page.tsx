@@ -4,7 +4,10 @@ export default function Page() {
   return (
     <section>
   <p className="mb-4">
-  {`Hey there! I'm Sai.`}
+  {`Hey there! I'm.`}
+  <span className="underline underline-dotted text-underline-offset-2 transition-all duration-300 rounded px-1 hover:bg-white hover:text-black hover:[text-stroke:0.5px_black] hover:[-webkit-text-stroke:0.5px_black]">
+  Sai
+</span>
   <br />
   <br />
   {`I've been working as a penetration tester for the past four years, but my love for computers began long before that. Growing up, I was lucky to have early access to a computer, a bulky monitor, those clacky keyboards, and the magic of '90s games that pulled me into a world I never wanted to leave.`}
