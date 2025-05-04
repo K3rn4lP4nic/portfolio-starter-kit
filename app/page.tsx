@@ -3,17 +3,17 @@ import { BlogPosts } from 'app/components/posts'
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
-      </h1>
-      <p className="mb-4">
-        {`Hey there! I'm Sai.`}
+  <p className="mb-4">
+  {`Hey there! I'm Sai.`}
   <br />
   <br />
-  {`With 4 years of experience as a penetration tester, my journey in tech has been anything but ordinary. I've always been drawn to the intricate layers of computers and cybersecurity — not just as a profession, but as a deep-rooted passion.`}
+  {`I've been working as a penetration tester for the past four years, but my love for computers began long before that. Growing up, I was lucky to have early access to a computer — a bulky monitor, those clacky keyboards, and the magic of '90s games that pulled me into a world I never wanted to leave.`}
   <br />
   <br />
-  {`Growing up with early access to a computer felt like unlocking a new world. From the pixelated charm of '90s games to the structured complexity of modern-day security systems, every chapter of this journey has shaped me. It's a beautiful transition — one that constantly reminds me to stay grateful and keep embracing the path that led me here.`}
+  {`Back then, it wasn't about careers or certifications. It was about the joy of discovery, the thrill of breaking things just to fix them again, and the quiet excitement of learning something new every day. That childhood curiosity never left me. It evolved, grew deeper, and eventually led me to cybersecurity.`}
+  <br />
+  <br />
+  {`Every time I think about where I started and where I am now, I feel a deep sense of gratitude. This journey has been personal, nostalgic, and full of small moments that made a big impact. And I’m still just getting started.`}
       </p>
       <div className="my-8">
         <BlogPosts />
