@@ -6,13 +6,17 @@ export default function Page() {
   <p className="mb-4">
   {`Hey there! I'm.`}
 <span
-  className="transition-all duration-300 px-1 rounded-none hover:bg-white hover:text-black hover:[text-stroke:0.5px_black] hover:[-webkit-text-stroke:0.5px_black]"
+  className="transition-all duration-300 hover:bg-white hover:text-black hover:[text-stroke:0.5px_black] hover:[-webkit-text-stroke:0.5px_black]"
   style={{
     textDecoration: 'underline dotted',
+    textDecorationThickness: '1px',
     textUnderlineOffset: '2px',
+    borderRadius: '0px',
+    padding: '0px',
+    margin: '0px',
   }}
 >
-Sai
+  Sai
 </span>
   <br />
   <br />
